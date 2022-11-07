@@ -27,7 +27,7 @@ model_sbert = SentenceTransformer('sentence-transformers/distiluse-base-multilin
 
 model_sbert = SentenceTransformer('sentence-transformers/distiluse-base-multilingual-cased-v2')
 
-path = 'C:\\Users\\schapira.d\\Desktop\\my_st_project\\data\\data.xlsx'
+path = 'data.xlsx'
 df = pd.read_excel(path)
 df.head()
 
